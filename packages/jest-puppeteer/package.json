@@ -17,6 +17,12 @@
   },
   "dependencies": {
     "expect-puppeteer": "^3.4.0",
-    "jest-environment-puppeteer": "^3.4.0"
-  }
+    "jest-environment-puppeteer": "^3.4.0",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
