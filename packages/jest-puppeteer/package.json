@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "expect-puppeteer": "^3.4.0",
-    "jest-environment-puppeteer": "^3.4.0"
+    "jest-environment-puppeteer": "^4.0.0"
   }
 }
